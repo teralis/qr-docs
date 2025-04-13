@@ -42,7 +42,7 @@ const config: Config = {
           editUrl:
             'https://github.com/teralis/qr-docs',
         },
-        blog: {
+        blog: false, /*{
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -56,7 +56,7 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
