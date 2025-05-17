@@ -2,46 +2,45 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to QR Tub
 
-Let's discover **Docusaurus in less than 5 minutes**.
+QR Tub is a powerful tool for managing items through QR codes and organized workspaces. With QR Tub, you can create digital twins for your physical items, making them easily accessible and manageable through a simple scan.
+
+## What is QR Tub?
+
+QR Tub helps you:
+- **Organize Items in Grids**: Create and manage items in an intuitive grid layout
+- **Generate QR Codes**: Each item gets its own QR code linking to a custom landing page
+- **Consolidate Actions**: Create link cards that bring together all actions related to an item
+- **Manage Workspaces**: Group related lists in "tubs" for better organization
+
+## Key Concepts
+
+### Tubs
+A tub is your workspace where you can organize related lists. Think of it as a container for different aspects of your items. For example, you might have:
+- An inventory tub
+- A maintenance tub
+- A documentation tub
+
+### Lists
+Within each tub, you can create multiple lists to track different aspects of your items. Lists are displayed in a grid format, making it easy to view and manage your items.
+
+### QR Codes
+Each item in your lists can have its own QR code. When scanned, these codes lead to:
+- A custom landing page for the item
+- Quick access to important actions
+- Relevant information and documentation
+
+### Link Cards
+Link cards help you consolidate various actions for an item in one place. You can:
+- Create custom actions
+- Group related links together
+- Provide quick access to important resources
 
 ## Getting Started
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ready to start organizing your items with QR Tub? Check out our guides:
+- [Creating Your First Tub](./tutorial-basics/create-a-tub)
+- [Managing Lists](./tutorial-basics/managing-lists)
+- [Working with QR Codes](./tutorial-basics/qr-codes)
+- [Setting Up Link Cards](./tutorial-basics/link-cards)

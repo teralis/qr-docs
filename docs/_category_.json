@@ -1,0 +1,8 @@
+{
+  "label": "Documentation",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Welcome to the QR Tub documentation. Learn how to manage your items, create QR codes, and streamline your workflows."
+  }
+} 
