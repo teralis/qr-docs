@@ -48,3 +48,21 @@
   --ifm-footer-link-color: var(--ifm-footer-link-color);
   --ifm-footer-title-color: var(--ifm-footer-title-color);
 }
+
+/* Custom navbar logo styles */
+.navbar__logo {
+  height: 3.5rem;
+  padding: 0.25rem 0;
+}
+
+.navbar__logo img {
+  height: 100%;
+  width: auto;
+  margin: 0;
+}
+
+.navbar {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}

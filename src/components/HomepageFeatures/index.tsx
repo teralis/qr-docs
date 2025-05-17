@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Smart Organization',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/undraw_spreadsheets_383w.svg').default,
     description: (
       <>
         Create organized workspaces with Tubs, manage items in customizable grid layouts,
@@ -22,7 +22,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'QR Code Magic',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/undraw_under-construction_c2y1.svg').default,
     description: (
       <>
         Generate custom QR codes that connect physical items to digital information.
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Powerful Automation',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/undraw_mobile-app_qxev.svg').default,
     description: (
       <>
         Create Link Cards to automate actions, connect with external tools,
