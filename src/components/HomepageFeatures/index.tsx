@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Smart Organization',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Create organized workspaces with Tubs, manage items in customizable grid layouts,
+        and keep everything accessible with powerful search and filtering.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'QR Code Magic',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Generate custom QR codes that connect physical items to digital information.
+        Scan, track, and update items with just your smartphone.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powerful Automation',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Create Link Cards to automate actions, connect with external tools,
+        and streamline your workflows. The possibilities are endless!
       </>
     ),
   },

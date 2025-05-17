@@ -39,7 +39,7 @@ QR Tub helps you:
 ## Next Steps
 
 Ready to dive deeper? Check out these guides:
-- [Understanding Tubs](../core-concepts/understanding-tubs)
-- [Working with Lists](../core-concepts/working-with-lists)
-- [QR Code Basics](../core-concepts/qr-code-basics)
-- [Link Cards Introduction](../core-concepts/link-cards-introduction) 
+- [Understanding Tubs](../core-concepts/tubs)
+- [Working with Lists](../core-concepts/lists)
+- [QR Code Management](../core-concepts/qr-codes)
+- [Link Cards](../core-concepts/link-cards) 
