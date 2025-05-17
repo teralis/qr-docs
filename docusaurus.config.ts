@@ -132,7 +132,7 @@ const config: Config = {
           ],
         },
       ],*/
-      copyright: `Copyright © ${new Date().getFullYear()} QR Tub by Teralis`,
+      copyright: `Copyright © ${new Date().getFullYear()} QR Tub`,
     },
     prism: {
       theme: prismThemes.github,
