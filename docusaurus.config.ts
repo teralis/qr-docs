@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'QR Tub',
+  title: 'qrtub',
   tagline: 'Connecting things with their digital twins',
   favicon: 'img/favicon.ico',
 
@@ -66,7 +66,7 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'QR Tub Logo',
+        alt: 'qrtub Logo',
         src: 'img/logo.svg',
         href: 'docs/intro',
       },
@@ -128,7 +128,7 @@ const config: Config = {
           ],
         },
       ],*/
-      copyright: `Copyright © ${new Date().getFullYear()} QR Tub`,
+      copyright: `Copyright © ${new Date().getFullYear()} qrtub`,
     },
     prism: {
       theme: prismThemes.github,

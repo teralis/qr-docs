@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Welcome to QR Tub
+# Welcome to qrtub
 
-QR Tub is a powerful tool for managing items through QR codes and organized workspaces. With QR Tub, you can create digital twins for your physical items, making them easily accessible and manageable through a simple scan.
+qrtub is a powerful tool for managing items through QR codes and organized workspaces. With qrtub, you can create digital twins for your physical items, making them easily accessible and manageable through a simple scan.
 
-## What is QR Tub?
+## What is qrtub?
 
-QR Tub helps you:
+qrtub helps you:
 - **Organize Items in Grids**: Create and manage items in an intuitive grid layout
 - **Generate QR Codes**: Each item gets its own QR code linking to a custom landing page
 - **Consolidate Actions**: Create link cards that bring together all actions related to an item
@@ -42,10 +42,10 @@ QR Tub helps you:
 
 ## Getting Started
 
-Ready to start organizing your items with QR Tub? Our documentation will guide you through everything you need to know:
+Ready to start organizing your items with qrtub? Our documentation will guide you through everything you need to know:
 
 ### 1. Core Concepts
-Learn about the fundamental building blocks of QR Tub:
+Learn about the fundamental building blocks of qrtub:
 - [Understanding Tubs](./core-concepts/tubs) - Create and manage workspaces
 - [Working with Lists](./core-concepts/lists) - Organize items effectively
 - [QR Code Management](./core-concepts/qr-codes) - Generate and use QR codes
@@ -59,7 +59,7 @@ Follow our step-by-step guide to get up and running:
 4. Set up link cards
 
 ### 3. Best Practices
-Learn how to make the most of QR Tub:
+Learn how to make the most of qrtub:
 - Organize your workspaces effectively
 - Design efficient item layouts
 - Optimize QR code usage

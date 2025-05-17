@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          Welcome to QR Tub Help
+          Welcome to qrtub Help
         </Heading>
         <p className="hero__subtitle">
           Learn how to organize your physical world with digital precision
@@ -35,8 +35,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="QR Tub Documentation"
-      description="Learn how to use QR Tub to manage your items with QR codes and organized workspaces">
+      title="qrtub Documentation"
+      description="Learn how to use qrtub to manage your items with QR codes and organized workspaces">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

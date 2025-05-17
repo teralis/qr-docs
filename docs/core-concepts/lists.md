@@ -8,7 +8,7 @@ Lists are the primary way to organize and display items within a tub. They provi
 
 ## Understanding Lists
 
-A list in QR Tub is:
+A list in qrtub is:
 - A collection of related items
 - Displayed in a customizable grid layout
 - Equipped with sorting and filtering capabilities

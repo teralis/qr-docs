@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Understanding Tubs
 
-Tubs are the fundamental organizational unit in QR Tub. They act as containers for your items, lists, and QR codes, helping you keep everything organized and easily accessible.
+Tubs are the fundamental organizational unit in qrtub. They act as containers for your items, lists, and QR codes, helping you keep everything organized and easily accessible.
 
 ## What is a Tub?
 

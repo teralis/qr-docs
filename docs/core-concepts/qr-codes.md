@@ -2,13 +2,13 @@
 sidebar_position: 3
 ---
 
-# QR Code Management
+# QR Codes
 
-QR codes are at the heart of QR Tub, providing a seamless way to connect physical items with their digital information. Learn how to generate, customize, and manage QR codes for your items.
+QR codes are at the heart of qrtub, providing a seamless way to connect physical items with their digital information. Learn how to generate, customize, and manage QR codes for your items.
 
 ## Understanding QR Codes
 
-QR Tub uses QR codes to:
+qrtub uses QR codes to:
 - Link physical items to digital records
 - Provide quick access to item information
 - Enable mobile scanning and updates
@@ -54,7 +54,7 @@ QR Tub uses QR codes to:
 ## Scanning and Usage
 
 ### Mobile Scanning
-1. Open QR Tub mobile app
+1. Open qrtub mobile app
 2. Point camera at QR code
 3. View item details
 4. Make updates

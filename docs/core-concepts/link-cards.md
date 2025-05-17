@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Link Cards
 
-Link cards are powerful tools that connect your QR Tub items with actions and resources. They provide quick access to related information and enable automated workflows.
+Link cards are powerful tools that connect your qrtub items with actions and resources. They provide quick access to related information and enable automated workflows.
 
 ## What are Link Cards?
 

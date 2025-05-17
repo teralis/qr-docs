@@ -4,11 +4,11 @@ sidebar_position: 1
 
 # Quick Start Guide
 
-Welcome to QR Tub! This guide will help you get started with managing your items through QR codes and organized workspaces.
+Welcome to qrtub! This guide will help you get started with managing your items through QR codes and organized workspaces.
 
-## What is QR Tub?
+## What is qrtub?
 
-QR Tub helps you:
+qrtub helps you:
 - **Organize Items in Grids**: Create and manage items in an intuitive grid layout
 - **Generate QR Codes**: Each item gets its own QR code linking to a custom landing page
 - **Consolidate Actions**: Create link cards that bring together all actions related to an item
