@@ -70,20 +70,13 @@ const config: Config = {
         src: 'img/logo.svg',
         href: 'docs/intro',
       },
-      /*items: [
+      items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: '/contact',
+          label: 'Contact Us',
           position: 'right',
         },
-      ],*/
+      ],
     },
     footer: {
       style: 'dark',
