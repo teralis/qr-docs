@@ -38,10 +38,10 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          Welcome to qrtub Help
+          Welcome to qrtub
         </Heading>
         <p className="hero__subtitle">
-          Learn how to organize your physical world with digital precision
+          Organize your physical world with digital precision
         </p>
         <div className={styles.buttons}>
           <Link
