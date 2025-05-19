@@ -21,3 +21,41 @@
   align-items: center;
   justify-content: center;
 }
+
+.betaSection {
+  padding: 4rem 0;
+  background: var(--ifm-color-emphasis-100);
+  text-align: center;
+}
+
+.betaContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.betaContent h2 {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.betaContent p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.betaAction {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .betaSection {
+    padding: 3rem 0;
+  }
+
+  .betaContent p {
+    font-size: 1.1rem;
+  }
+}

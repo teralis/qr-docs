@@ -1,0 +1,332 @@
+/* Container styles */
+.pricingContainer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 90%;
+}
+
+.pricingHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.pricingHeader h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Plan card styles */
+.planCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 1200px) {
+  .planCards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.planCard {
+  position: relative;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.planCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.popularPlan {
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.popularBadge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: var(--ifm-color-primary);
+}
+
+.description {
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1.5rem;
+}
+
+.featureList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.featureList li {
+  padding: 0.5rem 0;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.featureList li::before {
+  content: "✓";
+  margin-right: 8px;
+  color: var(--ifm-color-primary);
+}
+
+/* Button styles */
+.button {
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+  display: inline-block;
+  min-width: 200px;
+  text-align: center;
+}
+
+.primaryButton {
+  background: var(--ifm-color-primary);
+  color: white;
+  border: none;
+}
+
+.primaryButton:hover {
+  background: var(--ifm-color-primary-darker);
+  transform: translateY(-1px);
+}
+
+.secondaryButton {
+  background: transparent;
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary);
+}
+
+.secondaryButton:hover {
+  background: var(--ifm-color-primary-lighter);
+  transform: translateY(-1px);
+}
+
+/* Feature comparison table */
+.featureComparison {
+  margin: 4rem auto;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  margin: 2rem auto;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  max-width: 1000px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+}
+
+.featureTable {
+  width: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: unset;
+  background: var(--ifm-background-surface-color);
+  margin: 0;
+}
+
+.featureTable th,
+.featureTable td {
+  padding: 0.75rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  font-size: 0.95rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.featureTable tr:last-child td {
+  border-bottom: none;
+}
+
+.featureTable th {
+  background: var(--ifm-color-emphasis-100);
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.featureTable th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.featureTable th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.featureTable td:first-child {
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.featureTable th:not(:first-child),
+.featureTable td:not(:first-child) {
+  text-align: center;
+  min-width: 120px;
+}
+
+.check {
+  color: var(--ifm-color-success);
+  font-size: 1.2rem;
+  display: inline-block;
+  transform: scale(1.2);
+}
+
+.cross {
+  color: var(--ifm-color-danger);
+  font-size: 1.2rem;
+  display: inline-block;
+  transform: scale(1.2);
+}
+
+/* Enterprise section */
+.enterpriseSection {
+  margin: 4rem auto;
+  padding: 4rem;
+  max-width: 100%;
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.enterpriseFeatures {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.enterpriseFeatures ul {
+  text-align: left;
+  columns: 2;
+  list-style-type: none;
+  padding: 0;
+}
+
+.enterpriseFeatures li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.enterpriseFeatures li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+}
+
+/* FAQ section */
+.faqSection {
+  margin: 4rem 0;
+}
+
+.faqGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .faqGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.faqItem {
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.faqItem h3 {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+/* CTA section */
+.ctaSection {
+  text-align: center;
+  margin: 4rem 0;
+  padding: 3rem;
+  background: var(--ifm-background-surface-color);
+  border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pricingContainer {
+    padding: 1rem;
+  }
+  
+  .enterpriseFeatures ul {
+    columns: 1;
+  }
+  
+  .tableWrapper {
+    margin: 1rem -1rem;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .featureTable th,
+  .featureTable td {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .featureTable th:first-child,
+  .featureTable th:last-child,
+  .featureTable tr:last-child td:first-child,
+  .featureTable tr:last-child td:last-child {
+    border-radius: 0;
+  }
+  
+  .enterpriseSection {
+    padding: 2rem;
+  }
+}
+
+/* Add styles for extra-wide screens */
+@media (min-width: 1600px) {
+  .pricingContainer {
+    max-width: 1600px;
+  }
+  
+  .enterpriseFeatures {
+    max-width: 1000px;
+  }
+  
+  .faqGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 
