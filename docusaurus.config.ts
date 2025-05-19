@@ -72,6 +72,12 @@ const config: Config = {
       },
       items: [
         {
+          type: 'docSidebar',
+          position: 'left',
+          sidebarId: 'tutorialSidebar',
+          label: 'Documentation',
+        },
+        {
           to: '/contact',
           label: 'Contact Us',
           position: 'right',
