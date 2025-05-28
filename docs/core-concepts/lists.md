@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: "Master qrtub's list management system. Learn how to create, organize, and customize lists with grid views, filtering, and sorting capabilities. Perfect for managing items and their associated QR codes."
 ---
 
 # Working with Lists

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description: "Discover how to use qrtub's link cards to create powerful action menus for your items. Learn about card types, customization options, and integration capabilities to streamline your workflow."
 ---
 
 # Link Cards

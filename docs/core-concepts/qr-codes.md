@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: "Explore qrtub's QR code generation and management features. Learn how to create, customize, and deploy QR codes for your items, with options for branding, batch operations, and analytics tracking."
 ---
 
 # QR Codes

@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: "Learn about qrtub - a powerful tool for managing items through QR codes and organized workspaces. Create digital twins for physical items, generate QR codes, and manage everything through an intuitive interface."
 ---
 
 # Welcome to qrtub

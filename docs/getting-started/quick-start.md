@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: "Get started with qrtub in minutes. Learn how to create your account, set up your first tub, add lists, and generate QR codes. Perfect for new users looking to quickly implement qrtub in their workflow."
 ---
 
 # Quick Start Guide

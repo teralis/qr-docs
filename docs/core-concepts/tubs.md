@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: "Learn about qrtub's tubs - powerful workspaces for organizing related lists and items. Discover how to create, manage, and optimize tubs for efficient item management and team collaboration."
 ---
 
 # Understanding Tubs
