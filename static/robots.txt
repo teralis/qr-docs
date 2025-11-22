@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://help.qrtub.com/sitemap.xml 
+Sitemap: https://docs.qrtub.com/sitemap.xml 
